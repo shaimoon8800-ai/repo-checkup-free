@@ -55,11 +55,15 @@ python3 scripts/repo_checkup_cli.py psf/requests --json  # JSON 输出
 
 **付费版入口**
 
-| 平台 | 商品 | 价格 | 购买 |
-|---|---|---|---|
-| 支付宝 SkillPay | Repo 体检（`P0806000208825323`） | ¥0.05 / 次 | <https://skillpay.alipay.com/shelf/product?productId=P0806000208825323&merchantCode=shaiyueliang> |
+- 我的公开货架（9 个在售，一次逛完）：<https://skillpay.alipay.com/public/shaiyueliang>
+- 直达本商品：<https://skillpay.alipay.com/shelf/product?productId=P0806000208825323&merchantCode=shaiyueliang>
 
-SkillHub 内的按次付费版本同步在架，平台内支付。
+| 商品 | 平台 | 价格 | 购买 |
+|---|---|---|---|
+| Repo 体检 · 买断制 | 支付宝 SkillPay | ¥0.05 / 次 | 上方链接 |
+| Repo 体检 · 按次付费 | SkillHub Pay Skill | 平台内计费 | SkillHub 站内 |
+
+SkillHub 内的按次付费版本同步在架，交易走平台内支付。
 
 > 本地版与付费版的能力边界、评分口径完全一致，付费版只是把「批量 / API / 导出」
 > 这三件事挪到服务端，评分逻辑不缩水。
